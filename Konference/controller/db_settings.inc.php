@@ -1,0 +1,23 @@
+<?php 
+
+	// KONFIGURACNI UDAJE PRO PRIPOJENI K DB
+
+		// Pro vyber pripojeni - bude se to volat pri Connect
+		define("DB_CONNECTION_USE_PDO_MYSQL", 1);
+		define("DB_CONNECTION_USE_DIRECT_ORACLE", 2);
+
+    // konfigurace pro pripojeni k MySql - PDO
+        define("DB_SERVER", "localhost");
+        define("DB_DATABASE_NAME", "local_db");
+        define("DB_USER_LOGIN", "root");
+        define("DB_USER_PASSWORD", "");
+
+
+    // konfigurace pro pripojeni k Oracle - direct
+			define("ORACLE_DATABASE_SERVER", "localhost");
+			define("ORACLE_DATABASE_NAME", "");
+			define("ORACLE_DATABASE_USER", "");
+			define("ORACLE_DATABASE_PASSWORD", "");
+		
+	// KONEC KONFIGURACNI UDAJE PRO PRIPOJENI K DB
+?>

@@ -1,0 +1,21 @@
+#textarea{
+    height: 60%;
+}
+
+#login{
+    float: right;
+}
+
+#register{
+    float: right;
+}
+
+#scroll{
+    float: left;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
